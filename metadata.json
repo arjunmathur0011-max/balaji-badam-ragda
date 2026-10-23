@@ -1,0 +1,6 @@
+{
+  "name": "Balaji Badam Ragda - The Power House",
+  "description": "Immersive 3D web experience for Balaji Badam Ragda, authentic desi beverage & heritage sweets from Bhiwani, Haryana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

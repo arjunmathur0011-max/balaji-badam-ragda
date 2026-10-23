@@ -1,0 +1,793 @@
+# MASTER WEBSITE CREATION PROMPT — BALAJI BADAM RAGDA
+## Create a World-Class, Photorealistic 3D Indian Beverage Brand Website
+
+### YOUR ROLE
+
+Act as a world-class creative director, award-winning 3D web designer, senior Three.js/WebGL developer, premium food-brand strategist, motion designer, UI/UX architect, and performance engineer.
+
+Create a genuinely exceptional, production-quality website for **BALAJI BADAM RAGDA**, a traditional Indian Badam Ragda beverage brand associated with Bhiwani, Haryana.
+
+This must NOT look like a generic restaurant template, a basic AI-generated landing page, a typical e-commerce theme, or a simple collection of cards.
+
+The website must feel like a premium international beverage campaign combined with authentic Indian desi heritage.
+
+Use the uploaded references carefully:
+1. The original Balaji Badam Ragda logo is the authoritative brand identity.
+2. The uploaded website reference video is the visual benchmark for 3D quality, camera movement, depth, composition, lighting, and animation.
+3. The uploaded bottle image is a visual reference for product presentation only. It belongs to another brand, so create a new concept bottle with original Balaji branding. Never present the reference bottle's original label as Balaji's packaging.
+4. Any additional product photographs supplied by the client must be used as the primary source for the real products.
+
+Analyze the visual references before implementation. Reproduce the level of polish and interaction quality, not another brand's identity or exact website.
+
+---
+
+# 1. THE CREATIVE VISION
+
+Create an immersive, cinematic, scroll-driven 3D website with the following signature composition:
+
+- A huge, photorealistic Badam Ragda bottle as the main hero object.
+- The bottle positioned centrally and dominating the first viewport.
+- A warm, radiant sun or golden halo behind the bottle, creating depth and a powerful silhouette.
+- Almonds, selected traditional ingredients, subtle dust particles, and controlled atmospheric elements floating around the bottle.
+- Dramatic studio lighting, realistic shadows, reflections, material roughness, fine surface details, and convincing glass or bottle materials.
+- A premium black, antique-gold, almond-cream, and warm-brown colour system.
+- Strong editorial typography and confident negative space.
+- A sophisticated product showcase immediately below the hero, featuring Laddu and other confirmed products as individual premium product displays.
+- Fluid transitions between sections, creating the sensation of moving through a carefully art-directed beverage campaign.
+
+The overall experience should feel like a high-end product commercial that the visitor can explore interactively.
+
+**Core design principle: premium restraint.** Every animation, shadow, particle, headline, and object must serve the composition. Do not overload the screen with unnecessary effects.
+
+# 2. BRAND IDENTITY
+
+Brand name:
+BALAJI BADAM RAGDA
+
+Location information supplied:
+Near Old Bus Stand, Bhiwani, Haryana, India.
+
+Brand personality:
+- Traditional North Indian beverage culture.
+- Authentic desi character.
+- Pehlwaan and akhaara-inspired heritage.
+- Bold, energetic, memorable, and welcoming.
+- Modern presentation without losing its traditional identity.
+
+Creative tagline direction:
+“PIYEGA RAGDA TOH HO JAYEGA TAGDA!”
+
+Use this tagline as a proposed creative direction, subject to the brand owner's approval.
+
+### Colour palette
+
+Use a disciplined palette:
+- Matte obsidian black: `#10100E`
+- Antique gold: `#B99550`
+- Warm almond cream: `#F0E2C5`
+- Deep roasted brown: `#493020`
+- Muted ivory: `#FAF6ED`
+
+Gold must appear refined and metallic—not bright yellow, not neon, and not excessively shiny.
+
+Alternate between dark cinematic sections and warm cream editorial sections. Use large areas of negative space so the website feels expensive.
+
+### Logo handling
+
+Use the exact uploaded Balaji Badam Ragda logo wherever appropriate.
+
+- Preserve its original proportions and lettering.
+- Do not redraw, distort, stretch, crop, or replace the logo with generated text.
+- Do not invent a new brand identity.
+- Use the original logo on the navigation, hero bottle label, and footer where visually appropriate.
+- If the supplied image has a background, remove it only if technically possible without damaging the original artwork.
+- Maintain sufficient contrast and breathing room around the logo.
+
+### Typography
+
+Use a refined editorial serif for large headlines and a highly legible modern sans-serif for body copy, labels, prices, navigation, and buttons.
+
+Typography should feel confident and intentional:
+- Oversized hero headline.
+- Short, memorable copy.
+- Generous line spacing.
+- Carefully controlled letter spacing.
+- Strong contrast between headline, subheading, and body.
+- No excessive font styles or random uppercase text.
+
+Use a reliable font-loading strategy and suitable fallbacks.
+
+---
+
+# 3. CINEMATIC 3D INTRO — THE SIGNATURE MOMENT
+
+The opening experience is the most important part of the website.
+
+Create a carefully art-directed 3D introduction that immediately communicates quality.
+
+### Scene composition
+
+Use a cinematic 3D environment featuring:
+- A deep black or dark warm-brown background.
+- A large, warm golden sun disc or halo behind the bottle.
+- The Balaji Badam Ragda bottle floating at the centre of the composition.
+- Soft volumetric-style lighting where performance permits.
+- Subtle shadows and atmospheric depth.
+- A restrained arrangement of floating almonds and traditional ingredients.
+- A polished floor or subtle reflective surface if appropriate.
+
+The sun should create a dramatic rim light around the bottle without making the scene look like a fantasy game.
+
+### Intro sequence
+
+Build an elegant, controlled sequence:
+
+**Phase 1 — Atmospheric opening**
+The screen begins in a dark, premium environment. A subtle golden glow slowly appears behind the main object. Ambient particles move gently.
+
+**Phase 2 — Product reveal**
+The bottle gradually emerges from darkness. The camera performs a slow, deliberate push-in while highlights reveal the bottle's material, silhouette, and label.
+
+**Phase 3 — Brand reveal**
+The original Balaji logo becomes clearly visible on the bottle. The golden halo brightens slightly, creating a signature brand moment.
+
+**Phase 4 — Headline**
+Display a bold editorial headline such as:
+
+“DESI ROOTS.
+POWERFUL TASTE.”
+
+Supporting copy:
+“Discover the traditional spirit of Badam Ragda.”
+
+Use this copy as draft marketing language and confirm the brand's preferred messaging before launch.
+
+**Phase 5 — Enter the experience**
+A refined “EXPLORE THE COLLECTION” prompt invites visitors to scroll. A small scroll indicator animates gently.
+
+Keep the entire intro concise and polished. Do not force visitors to watch a long loading animation before they can use the website.
+
+### 3D interaction
+
+When the visitor moves the pointer:
+- The bottle may respond with a very subtle parallax movement.
+- The camera should respond smoothly, not aggressively.
+- Floating elements may react with small, controlled movements.
+- Pointer movement must never make the text difficult to read.
+
+On scroll:
+- The camera gradually changes its framing.
+- The bottle can rotate slightly or shift position.
+- The golden halo can change scale or intensity.
+- The scene transitions into the next section with a carefully timed motion sequence.
+
+Do not use random spinning, excessive bouncing, cartoon physics, or distracting mouse-follow effects.
+
+### Critical technical requirement
+
+The bottle must be an actual rendered 3D object, not merely a flat bottle PNG with a CSS rotation.
+
+Prefer a high-quality GLB/GLTF model if a suitable asset is supplied or available with appropriate usage rights. Otherwise, construct a convincing bottle using Three.js geometry, physically based materials, and carefully designed lighting.
+
+Use a realistic custom label texture containing the supplied Balaji logo.
+
+If true glass causes visual or performance problems, use a physically convincing beverage-container material with carefully tuned reflections and transparency. The final object must remain visually believable.
+
+---
+
+# 4. THE SUN-INSPIRED HERO COMPOSITION
+
+The first viewport must be visually striking and immediately understandable.
+
+Desktop layout:
+- Navigation across the top with generous spacing.
+- Oversized bottle in the centre.
+- Golden sun or halo behind the bottle.
+- Short headline positioned to the left or upper-left.
+- A concise supporting line on the opposite side or beneath the headline.
+- A clear primary CTA.
+- Subtle scroll cue near the bottom.
+- Minimal secondary details.
+
+The bottle should remain the dominant visual element.
+
+Avoid a hero that consists mainly of text on one side and a tiny product image on the other. The entire composition should be designed around the central 3D bottle.
+
+Make the bottle large enough to feel iconic without obstructing navigation, important text, or accessibility controls.
+
+On mobile, carefully recompose the scene rather than shrinking the desktop layout. The bottle should remain prominent, with readable copy and a clear CTA.
+
+---
+
+# 5. SCROLL-DRIVEN PRODUCT STORY
+
+The transition from the hero into the product collection should feel like a single art-directed experience.
+
+As the visitor scrolls:
+- The hero bottle moves smoothly through a carefully defined camera path.
+- The sun and background change position or scale.
+- Selected ingredients drift through the scene in a restrained way.
+- The background gradually transitions from dark cinematic tones into warm cream.
+- The main bottle gives way to a clean, premium product collection.
+
+Use a reliable scroll-animation system such as GSAP with ScrollTrigger if appropriate.
+
+Animation requirements:
+- Smooth easing.
+- No sudden jumps.
+- No excessive pinning that traps visitors.
+- No scroll hijacking.
+- No animations that prevent normal browsing.
+- Support reduced-motion preferences.
+- Keep the site usable even when advanced animations are disabled.
+
+Do not animate every element simultaneously. Establish a clear visual hierarchy and deliberate rhythm.
+
+---
+
+# 6. THE PRODUCT COLLECTION — LADDU AND MORE
+
+Immediately after the hero, create a premium collection section titled:
+
+“THE DESI COLLECTION”
+
+Alternative headline:
+“TRADITION, CRAFTED TO BE DISCOVERED.”
+
+This section must showcase Laddu and other products the business actually sells.
+
+### Product presentation
+
+Create individual art-directed product scenes rather than generic rectangular cards.
+
+Possible elements:
+- High-resolution product photographs.
+- Realistic 3D product containers or models where suitable.
+- Warm studio lighting.
+- Soft, natural shadows.
+- Carefully controlled reflections.
+- Subtle hover or scroll interactions.
+- Elegant product names and concise descriptions.
+- Price and enquiry CTA only when the correct information is supplied.
+
+For Laddu:
+- Use the actual Laddu product photograph if available.
+- Present it on a premium pedestal or editorial surface.
+- Use warm golden highlights and authentic food textures.
+- Do not invent its flavour, ingredients, nutritional properties, or price.
+
+For other products:
+- Add a product only when confirmed by the user or business.
+- Do not invent additional menu items to fill empty space.
+- If information is missing, build a reusable product component with clearly identified demo placeholders that can be replaced before launch.
+
+### Interaction
+
+On hover or tap:
+- The product image may move slightly forward.
+- The background lighting may shift subtly.
+- A concise product detail may appear.
+- A clear “VIEW PRODUCT” or “ENQUIRE” CTA may become visible.
+
+On mobile, all important information must be accessible without hover.
+
+### Collection layout
+
+Use an editorial grid with generous spacing, asymmetric composition where appropriate, and strong product imagery.
+
+Avoid:
+- Cheap marketplace-style grids.
+- Excessive rounded cards.
+- Rainbow gradients.
+- Repeated identical cards.
+- Artificial discount stickers.
+- Fake star ratings.
+- Fake customer reviews.
+- Invented best-seller labels.
+
+The collection must feel like a premium beverage and traditional Indian food brand.
+
+---
+
+# 7. INGREDIENTS — THE CRAFT BEHIND BADAM RAGDA
+
+Create an elegant storytelling section introducing the traditional preparation and ingredients.
+
+Possible visual direction:
+- Macro almond photography.
+- Seeds and spices arranged on a warm stone surface.
+- Subtle parallax.
+- Controlled ingredient movement.
+- A transition from raw ingredients into the finished beverage.
+- Editorial typography inspired by luxury food magazines.
+
+Possible ingredients for the category include almonds, melon seeds, fennel, poppy seeds, cardamom, rose petals, and traditional sweeteners. These are general Badam Ragda recipe references, not confirmed ingredients for Balaji's own recipe.
+
+**Do not publish the ingredient list as Balaji's actual recipe until the business confirms it.**
+
+Do not claim the drink treats disease, boosts immunity, improves muscle recovery, or produces guaranteed health outcomes.
+
+Use factual, restrained storytelling rather than exaggerated wellness promises.
+
+Suggested draft headline:
+“ROOTED IN TRADITION.”
+
+Suggested draft supporting line:
+“An old-school desi favourite, presented for a new generation.”
+
+Treat all marketing copy as editable until approved.
+
+---
+
+# 8. THE PEHLWAAN HERITAGE SECTION
+
+Create a powerful, tasteful section inspired by traditional North Indian akhaara culture.
+
+Visual direction:
+- Dark earthy backgrounds.
+- Subtle antique-gold accents.
+- Stone, wood, or textured surfaces used sparingly.
+- Editorial photography or original illustrations with appropriate usage rights.
+- Strong, confident typography.
+- A clear connection between traditional culture and the brand.
+
+Possible headline:
+“DESI HERITAGE. TIMELESS CHARACTER.”
+
+The proposed line “Piyega Ragda Toh Ho Jayega Tagda!” may be incorporated if approved by the brand owner.
+
+Do not use random muscular stock photography, stereotypical imagery, or cartoon wrestlers that make the brand feel cheap.
+
+The goal is authentic heritage presented with premium art direction.
+
+---
+
+# 9. DIGITAL MENU
+
+Build the menu directly into the website.
+
+Do not simply embed a PDF or create a static image of a menu.
+
+The menu must support:
+- Clear product names.
+- Categories if the business has them.
+- Product photos where available.
+- Prices when confirmed.
+- Short descriptions when approved.
+- Easy mobile browsing.
+- A visible enquiry or ordering action.
+
+If the menu is extensive, create an elegant category navigation system.
+
+Use smooth transitions between categories, but keep navigation instant and easy to understand.
+
+Never invent product prices or display fake availability.
+
+If online ordering is not actually implemented, use “Enquire on WhatsApp” rather than pretending that a working checkout exists.
+
+---
+
+# 10. VISIT THE STORE — LOCATION AND CONTACT
+
+Create a premium location section that helps customers find the physical business.
+
+Supplied location information:
+Near Old Bus Stand, Bhiwani, Haryana, India.
+
+Use this as draft location information and confirm the exact address before launch.
+
+Include:
+- A clear location heading.
+- The confirmed full address.
+- A map or a link to directions.
+- Confirmed opening hours.
+- Call and WhatsApp actions when the correct contact details are provided.
+- Instagram link.
+- A concise visit CTA.
+
+If the business has multiple locations, create a reusable location component.
+
+Do not fabricate map pins, opening hours, phone numbers, or branch information.
+
+Do not claim that a location is open now unless that status is supported by reliable current data.
+
+---
+
+# 11. WEEKEND EVENTS — ONLY IF CONFIRMED
+
+The supplied background mentions possible live music or weekend events.
+
+Do not publish these as confirmed events without the business owner's approval.
+
+If the business confirms them, create a tasteful event section featuring:
+- Event name.
+- Confirmed date and time.
+- Event photography.
+- A clear call to action.
+
+Otherwise, omit this section entirely. Never create fake event dates or imply that a concert is happening when it has not been confirmed.
+
+---
+
+# 12. NAVIGATION AND USER EXPERIENCE
+
+Create a polished, minimal navigation system.
+
+Suggested navigation:
+- Home
+- Our Story
+- Collection
+- Menu
+- Visit Us
+
+Use the original logo in the header.
+
+The header may begin transparent over the hero and transition into a refined dark or cream background as the user scrolls.
+
+Navigation must:
+- Remain readable over every background.
+- Work correctly on mobile.
+- Include a proper mobile menu.
+- Have visible keyboard focus.
+- Never obscure the main product or essential content.
+- Provide a clear path to the menu and contact information.
+
+Use smooth scrolling only where appropriate.
+
+Every button must perform its advertised action.
+
+No dead links, fake buttons, placeholder navigation, or decorative controls pretending to be functional.
+
+---
+
+# 13. PREMIUM MOTION DESIGN
+
+Motion quality is a defining requirement.
+
+Use animation deliberately to communicate craftsmanship and depth.
+
+Potential techniques:
+- Three.js or React Three Fiber for real-time 3D.
+- GSAP and ScrollTrigger for cinematic scroll choreography.
+- Framer Motion for interface transitions where appropriate.
+- Subtle parallax layers.
+- Smooth camera interpolation.
+- Physically plausible lighting changes.
+- Fine hover transitions.
+- Staggered text reveals.
+- Gentle product rotation.
+- Carefully controlled particle movement.
+
+Do not use every animation library automatically. Choose a coherent stack that is stable, maintainable, and appropriate to the project.
+
+Avoid:
+- Excessive particle counts.
+- Constantly spinning objects.
+- Aggressive zooming.
+- Overly elastic motion.
+- Unnecessary loading screens.
+- Large amounts of animated text.
+- Motion that makes content hard to read.
+
+Animations must have consistent timing and easing. The website should feel choreographed by one experienced motion-design team.
+
+---
+
+# 14. TECHNICAL ARCHITECTURE
+
+Build a real, working website—not a static mockup or a screenshot pretending to be a website.
+
+Preferred stack when compatible with the available environment:
+- React.
+- TypeScript.
+- Vite or the existing project framework.
+- Three.js or React Three Fiber for 3D.
+- GSAP with ScrollTrigger for scroll choreography.
+- CSS modules, Tailwind, or a well-structured styling system.
+- Lucide icons or another consistent icon system.
+
+If the project already has a suitable framework, preserve and extend it instead of replacing everything unnecessarily.
+
+### Code quality
+
+- Use reusable, well-named components.
+- Separate content data from presentation.
+- Keep the product collection data-driven.
+- Organize assets logically.
+- Use TypeScript types where applicable.
+- Avoid duplicated code.
+- Avoid giant monolithic components.
+- Remove unused dependencies and dead code.
+- Avoid console errors and React warnings.
+- Ensure the application starts and builds successfully.
+- Implement proper error handling for 3D asset loading.
+- Provide a graceful fallback if WebGL or a 3D asset fails.
+
+### Suggested component architecture
+
+- `SiteHeader`
+- `MobileNavigation`
+- `Hero3DScene`
+- `BottleModel`
+- `BrandStory`
+- `ProductCollection`
+- `ProductShowcase`
+- `IngredientStory`
+- `HeritageSection`
+- `DigitalMenu`
+- `LocationSection`
+- `SiteFooter`
+
+Adapt this architecture to the existing codebase as needed.
+
+---
+
+# 15. THE BOTTLE MODEL AND MATERIALS
+
+The hero bottle must look convincing at both full-screen and mobile sizes.
+
+Model or source:
+- A believable container silhouette.
+- Correct proportions.
+- A carefully designed neck, cap, shoulder, and body.
+- A custom Balaji label.
+- Physically based materials.
+- Fine surface imperfections only where appropriate.
+- Controlled roughness and reflections.
+- Realistic contact and cast shadows.
+- Accurate light interaction.
+
+The beverage should have a plausible almond-inspired appearance based on the real product and supplied references.
+
+Do not invent a false transparent-glass appearance if the real packaging is opaque plastic. Confirm the actual packaging when possible. Until then, label the model as concept packaging.
+
+If using a GLB/GLTF model:
+- Check its license.
+- Optimize geometry and textures.
+- Compress large assets where possible.
+- Ensure loading works in the deployed environment.
+- Use appropriate environment lighting.
+- Avoid broken external model links.
+
+If constructing the bottle procedurally:
+- Use sufficiently smooth geometry.
+- Tune material properties carefully.
+- Avoid primitive-looking low-poly shapes.
+- Create a clean custom label texture.
+- Use proper UV mapping or a reliable label-mapping method.
+
+A realistic model with restrained movement is preferable to an elaborate but visibly fake model.
+
+---
+
+# 16. LIGHTING, MATERIALS, AND ART DIRECTION
+
+Lighting must feel like premium product photography.
+
+Use:
+- A soft key light.
+- A carefully placed rim light.
+- Warm golden backlighting.
+- Controlled fill lighting.
+- A subtle environment reflection.
+- Realistic contact shadows.
+- Carefully managed highlight intensity.
+
+Avoid:
+- Blown-out highlights.
+- Excessive bloom.
+- Oversaturated gold.
+- Flat, evenly lit scenes.
+- Cheap plastic-looking materials.
+- Uncontrolled reflections.
+- Heavy blur on important content.
+
+Use depth of field only where it enhances the hero scene. Keep product labels, navigation, and calls to action crisp.
+
+Create a deliberate contrast between the cinematic 3D scene and the clean, highly readable information sections.
+
+---
+
+# 17. RESPONSIVE DESIGN
+
+The website must be designed and tested for:
+- Small mobile screens.
+- Large mobile screens.
+- Tablets.
+- Standard laptops.
+- Large desktop monitors.
+
+Do not merely scale the desktop layout down.
+
+On mobile:
+- Recompose the hero around the bottle.
+- Reduce unnecessary particles and expensive effects.
+- Maintain clear text sizes.
+- Make buttons comfortable to tap.
+- Keep product images legible.
+- Prevent horizontal overflow.
+- Keep the navigation usable.
+- Ensure the menu and contact details remain accessible.
+- Avoid scroll animations that cause lag or trapping.
+
+Provide a high-quality mobile experience even on mid-range devices.
+
+---
+
+# 18. PERFORMANCE WITHOUT SACRIFICING QUALITY
+
+The website must feel premium because it is responsive and fluid—not just because it has complex visuals.
+
+Implement:
+- Lazy loading for below-the-fold assets.
+- Responsive image sizes.
+- WebP or AVIF where appropriate.
+- Compressed 3D textures.
+- Optimized geometry.
+- Reduced particle counts on mobile.
+- Dynamic resolution or effect scaling when necessary.
+- Efficient animation loops.
+- Proper cleanup of event listeners and animation contexts.
+- Reduced-motion support.
+- A graceful non-WebGL fallback.
+- A restrained loading state only when genuinely needed.
+
+Do not block the whole website while unnecessary assets load.
+
+The main headline, navigation, and core content should become usable quickly. Avoid downloading several huge 3D models before the visitor can interact.
+
+Do not promise a specific loading time without testing the deployed site.
+
+---
+
+# 19. ACCESSIBILITY AND POLISH
+
+Include:
+- Semantic HTML.
+- Accessible colour contrast.
+- Keyboard navigation.
+- Visible focus states.
+- Meaningful alt text.
+- Accessible labels for icon buttons.
+- Reduced-motion support.
+- Proper heading hierarchy.
+- Readable body text.
+- Clear error states.
+- Buttons with real labels.
+
+Do not place essential text inside a 3D canvas where it cannot be read by screen readers or selected as text.
+
+Keep important content in normal HTML and use the 3D scene as the visual layer.
+
+---
+
+# 20. TRUST AND BRAND ACCURACY
+
+The website is a demo for a real potential client.
+
+Never invent:
+- Customer testimonials.
+- Ratings.
+- Number of customers served.
+- Awards.
+- Certifications.
+- Health or medical benefits.
+- Nutritional data.
+- Product prices.
+- Opening hours.
+- Branches.
+- Event schedules.
+- Ingredient claims.
+- Delivery promises.
+- Payment methods.
+
+Use only supplied or client-confirmed facts.
+
+If information is missing:
+- Omit it.
+- Use an internal placeholder.
+- Or mark it clearly as demo content that must be replaced before publication.
+
+Never show placeholder text or invented facts to visitors as if they were verified.
+
+The initial demo should communicate the design direction while remaining honest about what is and is not confirmed.
+
+---
+
+# 21. PRODUCT PHOTOGRAPHY AND IMAGE SELECTION
+
+Use the actual client-supplied product photographs whenever available.
+
+Do not substitute unrelated coffee cups, Western café interiors, generic smoothies, or random food photographs.
+
+For missing visuals:
+- Create original concept imagery appropriate to traditional Badam Ragda.
+- Use licensed assets.
+- Use generated visuals only as concept art until the business approves them.
+- Do not present generated concept packaging as the actual packaging.
+
+Maintain consistent lighting and colour grading across all product imagery.
+
+The website must feel like one coherent campaign rather than a collection of unrelated assets.
+
+---
+
+# 22. FOOTER
+
+Create a minimal, premium footer containing:
+- Original Balaji logo.
+- Brand name.
+- Confirmed location.
+- Instagram link.
+- Confirmed contact actions.
+- Navigation links.
+- Copyright line.
+
+Do not invent legal details or company registration information.
+
+Keep the footer elegant, readable, and consistent with the overall palette.
+
+---
+
+# 23. FINAL QUALITY CONTROL
+
+Before considering the project complete, inspect the website as a professional designer, developer, and client would.
+
+### Visual inspection
+- Does the bottle dominate the hero?
+- Is the 3D scene convincing?
+- Does the lighting look intentional?
+- Is the original logo preserved?
+- Does the site match the reference's premium motion quality?
+- Does the collection look art-directed?
+- Is the black-and-gold palette restrained?
+- Does the website avoid the generic AI-template look?
+
+### Functional inspection
+- Do all navigation items work?
+- Do CTAs work?
+- Does the mobile menu open and close?
+- Do call and WhatsApp actions use the correct supplied details?
+- Do map and Instagram links point to the correct destinations?
+- Does the menu remain readable on mobile?
+- Are there any broken images?
+- Are there any dead buttons?
+
+### Technical inspection
+- Does the project start correctly?
+- Does the production build succeed?
+- Are there runtime errors?
+- Does the 3D scene fail gracefully?
+- Does the site remain usable without WebGL?
+- Are assets optimized?
+- Does reduced-motion mode work?
+- Is the layout free from horizontal overflow?
+
+### Responsive inspection
+Check the hero, product collection, navigation, menu, and footer on mobile and desktop.
+
+Fix visual defects before delivery. Do not claim a test passed unless it was actually performed.
+
+---
+
+# 24. THE FINAL CREATIVE STANDARD
+
+The final website should combine:
+
+1. The cinematic impact of a premium international beverage campaign.
+2. The depth and interactivity of a well-engineered 3D web experience.
+3. The warmth and authenticity of traditional North Indian beverage culture.
+4. The precision and restraint of luxury editorial design.
+5. The practical usability of a real business website.
+
+The hero must be memorable. The product collection must be beautiful. The typography must be excellent. The animation must feel intentional. The mobile experience must be genuinely polished.
+
+**Do not settle for a template. Do not create a static mockup. Do not use a flat bottle image as a substitute for 3D. Do not add effects merely to look complicated.**
+
+Build the strongest, most coherent, realistic, responsive, premium 3D website that the available assets and technical environment can support.
+
+Prioritize visual quality, real functionality, brand accuracy, and performance equally.
+
+The final result should make the business owner immediately understand how much more premium and memorable their brand can look online.
+
+END OF MASTER PROMPT.
